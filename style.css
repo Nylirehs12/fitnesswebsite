@@ -1,0 +1,327 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Josefin Sans', sans-serif;
+ box-sizing: border-box;
+
+}
+
+.wrapper{
+     background: url("BG-1.jpg") no-repeat;
+     background-size: cover;
+     height: 100vh;
+
+
+}
+.navbar{
+     height: 90px;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.7);
+}
+.logo{
+ width: 150px;
+ height: auto;
+ padding: 0px 25px;
+}
+.navbar ul{
+ float: right;
+ margin: right: 20px;
+}
+.navbar ul li{
+ list-style: none;
+ margin: 0 10px;
+ display: inline-block;
+ line-height: 100px;
+}
+.navbar ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ padding: 6px 13px;
+ font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+ background: red;
+ border-radius: 2px;
+}
+.wrapper .center{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: sans-serif;
+ user-select: none;
+}
+.center h1{
+ color:  white;
+ font-size: 70px;
+ font-weight: bold;
+ width: 900px;
+ text-align: left;
+}
+.center h2{
+ color:  white;
+ font-size: 50px;
+ font-weight: bold;
+ width: 885px;
+ margin-top: 10px;
+ text-align: left;
+}
+.center h3{
+ color:  orange;
+ font-size: 50px;
+ font-weight: bold;
+ width: 885px;
+ margin-top: 10px;
+ text-align: left;
+}
+.center .buttons{
+ margin: 35px 280px;
+}
+.buttons button{
+ height: 50px;
+ width: 150px;
+ font-size: 18px;
+ font-weight: bold;
+ color: white;
+ background: orange;
+ border: 1px solid #cc0000;
+ outline: none;
+ cursor: pointer;
+ border-radius: 25px;
+}
+.buttons .btn{
+ margin-left: 25px;
+}
+.buttons button:hover{
+ background: #cc0000;
+}
+
+.aboutus{
+Width: 100%;
+padding: 78px; 0px;
+background-color: #191919;
+
+}
+.aboutus img{
+ height: auto;
+ width: 420px;
+}
+.aboutus-text{
+ width: 550px;
+}
+.main{
+ width: 1130px;
+ max-width: 95%;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.aboutus-text h1{
+ color: white;
+ font-size: 25px;
+ text-transform: capitalize;
+ margin-bottom: 20px;
+}
+.aboutus-text h5{
+ color: white  ;
+ font-size: 25px;
+ text-transform: capitalize;
+}
+span{
+ color: #f9004d;
+}
+.aboutus-text p{
+ color: #fcfc;
+ letter-spacing: 1px;
+ line-height: 28px;
+ font-size: 18px;
+ margin-bottom: 45px;
+}
+
+h1{
+
+ font-size: 50px;
+ font-style: bold;
+ font-weight: 150;
+ text-decoration: none;
+ word-spacing: 0px;
+ line-height: 90px;
+ color: #cc0000
+ text-align: align left;
+ transform: uppercase;
+
+}
+h2{
+ font-family:sans-serif;
+ font-size: 50px;
+ font-style: bold;
+ text-align: left;
+ line-height: 50px;
+ color: #c61d3c;
+ text-align: align left;
+ transform: uppercase;
+
+}
+p{
+font-family:sans-serif;
+ font-size: 50px;
+ font-style: normal;
+ text-indent:0px;
+ text-indent: 0px;
+ text-align: justify;
+ letter-spacing: 0px
+}
+h3{
+   font-family:sans-serif;
+ font-size: 50px;
+ font-style: bold;
+ text-align: left;
+ line-height: 50px;
+ color: #c61d3c;
+ text-align: align left;
+  transform: uppercase;
+}
+p{
+ font-family:sans-serif;
+ font-size: 30px;
+ font-style: normal;
+ text-indent:0px;
+ word-spacing: 5px;
+ text-indent: 0px;
+ text-align: justify;
+ letter-spacing: 0px
+}
+h4{
+ font-family:sans-serif;
+ font-size: 50px;
+ font-style: bold;
+ text-align: left;
+ line-height: 50px;
+ color: #c61d3c;
+}
+
+.courses{
+ background: url("tup-manila.jpg") no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+
+
+body{
+ height: 100vh;
+ width: 100%;
+}
+
+.container{
+ position: relative;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 100px;
+}
+
+.container:after{
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ background: url("tup-manila.jpg") no-repeat center;
+ background-size: cover;
+ filter: blur(5px);
+ z-index: -1;
+}
+.contact-box{
+ max-width: 850px;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background-color: #fff;
+ box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+
+}
+
+.left{
+ background: url("tup-front.jpg") no-repeat center;
+ background-size: cover;
+ height: 100%;
+}
+
+.right{
+ padding: 30px 40px;
+}
+
+h2{
+ position: relative;
+ padding: 0 0 10px;
+ margin-bottom: 10px;
+}
+
+h2:after{
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   transform: translateX(-50%);
+   height: 4px;
+   width: 50px;
+   border-radius: 2px;
+   background-color: #2ecc71;
+}
+
+.field{
+ width: 100%;
+ border: 2px solid rgba(0, 0, 0, 0);
+ outline: none;
+ background-color: rgba(230, 230, 230, 0.6);
+ padding: 0.5rem 1rem;
+ font-size: 1.1rem;
+ margin-bottom: 22px;
+ transition: .3s;
+}
+
+.field:hover{
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+textarea{
+ min-height: 150px;
+}
+
+.btn{
+ width: 100%;
+ padding: 0.5rem 1rem;
+ background-color: #2ecc71;
+ color: #fff;
+ font-size: 1.1rem;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ transition: .3s;
+}
+
+.btn:hover{
+   background-color: #27ae60;
+}
+
+.field:focus{
+   border: 2px solid rgba(30,85,250,0.47);
+   background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+ .contact-box{
+   grid-template-columns: 1fr;
+ }
+ .left{
+   height: 200px;
+ }
+}

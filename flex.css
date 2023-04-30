@@ -1,0 +1,33 @@
+.flex-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.flexbox{
+    height: 100px;
+    display: flex;
+    border-color: antiquewhite;
+}
+
+.box1{
+    width:200px;
+    height: 100px;
+    background: rgb(158, 158, 158);
+    border-color: antiquewhite;
+}
+
+.box2{
+    width: 970px;
+    height: 57.7px;
+    background: rgb(209,209,209);
+    flex-grow: 1;
+}
+
+.box3{
+    width: 200px;
+    height: 50px;
+    background: rgb(158,158,158);
+}
